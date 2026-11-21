@@ -1,55 +1,42 @@
-<h1 align="center">Hi, I'm Pragnaya</h1>
-<p align="center"><b>Data Engineering · Data Science · Performance Engineering</b><br>
-MS Applied Data Intelligence @ San José State University · Open to 2027 internships</p>
+# pragnayap.github.io
 
-<p align="center">
-  <a href="https://pragnayap.github.io"><img src="https://img.shields.io/badge/Portfolio-pragnayap.github.io-0f766e?style=for-the-badge" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/pragnaya-priyadarshini"><img src="https://img.shields.io/badge/LinkedIn-Connect-4f46e5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:pragnaya.priyadarshini@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-d97706?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+Source for my personal portfolio site 👉 **[pragnayap.github.io](https://pragnayap.github.io)**
+
+<p>
+  <a href="https://pragnayap.github.io"><img src="https://img.shields.io/badge/Live%20site-pragnayap.github.io-0f766e?style=flat-square" alt="Live site"></a>
+  <img src="https://img.shields.io/badge/Built%20with-HTML%20%2B%20CSS-4f46e5?style=flat-square" alt="HTML + CSS">
+  <img src="https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-d97706?style=flat-square" alt="GitHub Pages">
 </p>
 
-I spent **six years load-testing enterprise systems** for FedEx, T-Mobile and AON (via Capgemini, Qualitest and Atos-Syntel). Now I build the **data pipelines, ML models and observability** that keep those systems healthy. I hold the 🎖️ **NVIDIA Associate Data Science** certification.
+## About
 
----
+I'm **Pragnaya Priyadarshini**, an MS Applied Data Intelligence student at San José State University with six years of enterprise performance engineering experience. I'm looking for **2027 internships** in data engineering, data science and performance engineering.
 
-## Featured projects
+The site covers:
+- **Projects:** GPU telemetry anomaly detection, Déjà Vu, Ragabot and the GBIF bias pipeline, each with an architecture diagram
+- **Hackathons:** Déjà Vu (Standout Team Award), FoodMesh AI, forkLift, Hospital Patient Monitoring and a crisis voice agent
+- **Experience:** performance and QA engineering for FedEx, T-Mobile and AON
+- **Skills:** Python, SQL, Airflow, BigQuery, PyTorch, Elasticsearch/Kibana and more
 
-### GPU Telemetry Anomaly Detection Pipeline · *flagship*
-An end-to-end pipeline on the Google Cluster Trace v3 dataset. Ingestion → feature engineering → an ensemble of **Isolation Forest + PyTorch Autoencoder + XGBoost** → Elasticsearch/Kibana observability, orchestrated with Airflow and tracked in MLflow.
-`Python` `PyTorch` `XGBoost` `MLflow` `Airflow` `BigQuery` `Elasticsearch` `Kibana` `Docker`
+## How it's built
 
-### Déjà Vu: Token-Efficient Multi-Agent Coding · *Standout Team Award*
-Built at the Snowflake × Beta Fund × EverMind hackathon (team of 4). **ContextMesh** caches files shared between agents, and **Spec-Caching** (EverOS MemRAG) reuses specs, so agents stop burning tokens re-reading the same context. → [repo](https://github.com/JasonPeng2019/ReasonRender_MF)
-`Multi-agent` `Caching` `MemRAG` `LLMs`
+- One self-contained `index.html` with inline CSS and a few lines of JavaScript. No frameworks and no build step.
+- Light "glassmorphism" design: translucent cards with `backdrop-filter` blur over soft color blobs.
+- Architecture diagrams are drawn in plain HTML/CSS, so there are no image files to maintain.
+- Fully responsive, with scroll-reveal animations using `IntersectionObserver`.
 
-### Ragabot: RAG for Indian Classical Music
-A retrieval-augmented Q&A system over 20 Hindustani and Carnatic ragas. It indexes 387 chunks in Elasticsearch with MiniLM embeddings, and Llama 3.3 70B on Groq writes grounded answers.
-`Elasticsearch` `Kibana` `LangChain` `Groq` `Docker`
+## Run locally
 
-### GBIF Bird Observation Bias Pipeline · *DATA 230*
-A data warehousing project that measures sampling bias in GBIF bird records. I owned the bias metrics, z-scores and Power BI dashboard. → [repo](https://github.com/pragnayap/GBIF-Bias-Pipeline)
-`Python` `SQL` `Power BI`
+```bash
+git clone https://github.com/pragnayap/pragnayap.github.io.git
+cd pragnayap.github.io
+open index.html        # or: python3 -m http.server 8000
+```
 
----
+## Deploy
 
-## Tech stack
+GitHub Pages serves the site from the `main` branch (root folder). Any commit to `index.html` goes live within a minute or two.
 
-| Area | Tools |
-|---|---|
-| **Languages** | Python · SQL · Bash |
-| **Data engineering** | Airflow · BigQuery · Snowflake · Dimensional modeling · Parquet · Medallion architecture |
-| **ML & AI** | PyTorch · XGBoost · scikit-learn · MLflow · RAG · LangGraph |
-| **Observability & infra** | Elasticsearch · Kibana · Docker · GCP · Performance testing |
-| **Databases** | MongoDB · Neo4j · Redis |
-| **Analytics** | Power BI · Kibana dashboards |
+## Contact
 
----
-
-## GitHub stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=pragnayap&show_icons=true&hide_border=true&theme=default&title_color=0f766e&icon_color=4f46e5" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pragnayap&layout=compact&hide_border=true&title_color=0f766e" alt="Top languages">
-</p>
-
-<p align="center"><i>Making data systems fast, observable and reliable, one pipeline at a time.</i></p>
+[LinkedIn](https://www.linkedin.com/in/pragnaya-priyadarshini) · [Email](mailto:pragnaya.priyadarshini@gmail.com) · [GitHub](https://github.com/pragnayap)
