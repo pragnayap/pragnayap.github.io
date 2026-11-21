@@ -4,8 +4,8 @@ MS Applied Data Intelligence @ San José State University · Open to 2027 intern
 
 <p align="center">
   <a href="https://pragnayap.github.io"><img src="https://img.shields.io/badge/Portfolio-pragnayap.github.io-0f766e?style=for-the-badge" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-4f46e5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-Say%20hi-d97706?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="www.linkedin.com/in/pragnaya-priyadarshini"><img src="https://img.shields.io/badge/LinkedIn-Connect-4f46e5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:pragnaya.priyadarshini@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hi-d97706?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
 I spent **six years load-testing enterprise systems** for FedEx, T-Mobile and AON (via Capgemini, Qualitest and Atos-Syntel). Now I build the **data pipelines, ML models and observability** that keep those systems healthy. I hold the 🎖️ **NVIDIA Associate Data Science** certification.
